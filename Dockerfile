@@ -46,7 +46,7 @@ ENV JAVA_HOME /opt/jdk
 ENV PATH ${PATH}:${JAVA_HOME}/bin
 
 # Install pre-reqs
-RUN apk add unzip supervisor curl
+RUN apk add unzip supervisor wget
 
 ENV OPENHAB_VERSION 1.7.1
 
